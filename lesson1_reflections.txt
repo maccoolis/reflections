@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Easily picked out the lines that had differences. Scanning a 1000 line code block for typos would be impossible so a machine reader doing the work for you is great.
+
+    Still looked a bit fiddly on the screen and even though the lines were brought back you still had to read quite closely to see what had changed. Would be nice to actually see the change highlighted.
+
+    All in  all though certainly an excellent way to compare old and new files and I can see that when coding a lot of stuff mistakes can easily be made so a quick way to filter out the silly changes is good.
+
+How could having easy access to the entire history of a file make you a better programmer in the long term?
+
+    Seeing the evolution of the code would be very useful to see how the journey was made. It also might contain code that whilst it was removed from the final version could still be useful for future coding projects. You can also see where you made errors and learn to not make the same mistake twice. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+    
+    You get a logical set of versions that is linked to an intelligent change to the code being made by the developer. When Google docs saves versions automatically there is no way of knowing specifically which version to return to if you need to revert. You would have to check many to find the right point in time - or you could have missed a version because Google didn't save at that time.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    Whilst they are both version control systems their purpose is different for the end user. Generally in Google docs every file will be stand alone and be exclusive of other files. Users generally tend to be working within a single file, like writing a s/sheet or memo. Git's purpose is for code control and for web pages and apps to work it needs multiple files to be working in harmony together. By saving multiple files in one commmit it can retain the integrity of the whole entity (web page/app) so that everything required to ensure it works correctly is saved together.
+
+How can you use the commands git log and git diff to view the history of files?
+    
+    git log lists all of the commits in the repo. It kind of stops and you have to remember the down arrow to scroll through them. "q" quits the scrolling and back to command line. You can then see the IDs of the commits and use git diff to compare them using the command git diff id1 id2. This then shows the changes to the commits showing green for additions and red for deletions. You can then see exactly what has changed.
+
+How might using version control make you more confident to make changes that could break something?
+    
+    Version control provides you the tools to be able to quickly and easily find out exaxtly when the error occured so that you can fix it. Therefore you have the freedom to make changes to the code base without having to worry if you introduce an error that you'd never be able to find out what the problem is or revert to a version that works.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To control and manage my code base for my future projects so that I can take advantage of all the features it has.
