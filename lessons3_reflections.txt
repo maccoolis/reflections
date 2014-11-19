@@ -21,7 +21,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    x
+    You have a complete record of all the commits and branches off the remote repository so you have a full history to work on
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
