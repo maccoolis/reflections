@@ -33,4 +33,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    x
+    You'd create a new branch to start a new function or feature to experiment without affecting the production ready
+    code that is in master. You'd update master if there was a bug or error that needed fixing. Collaborating via creating
+    branches means that the ower can review and share the new work to remove error before then adding to the main master.
